@@ -18,6 +18,7 @@ export default class MainSceneCtrl extends cc.Component {
 
         // 初始化面板路由器
         gg.panelRouter.init(this.rootLayerNode, true);
+        console.log("SSSSSSSSSSSSSSSSSSSSSSSS")
     }
 
     async start() {
